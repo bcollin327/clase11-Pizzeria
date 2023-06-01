@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+
+  main {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+  
+  }
+
+  .contenedorheader {
+    border: 2px solid rgb(14, 6, 117); 
+    height: 100px;
+    width: 1024px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+   
+  .logo {
+      width: 234px;
+      height: 80px;
+      font-size: 26px;
+      border: 1px solid rgb(121, 13, 175);  
+      flex-basis: 50px; 
+    }
+
+    .box-menu {
+      width: 234px;
+      height: 19px;
+      font-size: 12px;
+      border: 1px solid rgb(121, 13, 175);  
+      flex-basis: 50px; 
+    }
+
+    .listaheader li {
+      display:inline;
+      
+
+    }
+
+    
+    .delivery{
+      whidth:490px;
+      height: 350px;
+      flex-basis: 50px;
+      border: 1px solid rgb(121, 13, 175); 
+      justify-content: left;
+    }
+
+    .podio{
+      width:491px;
+      height: 350px;
+      flex-basis: 50px;
+      border: 1px solid rgb(121, 13, 175); 
+      justify-content: right;
+
+    }
